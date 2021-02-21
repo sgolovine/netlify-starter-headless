@@ -2,6 +2,10 @@
 
 Create API's with Netlify Functions.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/51fc4c1d-3415-412d-ad9c-3afae5fe55ed/deploy-status)](https://app.netlify.com/sites/netlify-headless-starter/deploys)
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sgolovine/netlify-starter-headless)
+
 ## What is it?
 
 AWS Serverless functions are awesome, but having to deal with
@@ -46,16 +50,15 @@ should see the result:
 
 ```
 
-## Changing the base path
+## Installation
 
-Typically when you create a function in Netlify, you have to call it like this: `curl http://localhost:8888/.netlify/functions/my-func-name`. This starter includes a redirect in `netlify.toml` that will allow you to make calls like this instead: `curl http://localhost:8888/api/my-func-name`. If you want to change the base path, modify the `[[ redirects ]]` block in `netlify.toml`
+**Option 1**: One-click deploy
 
-```toml
-[[ redirects ]]
-  from = "/api/v1/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sgolovine/netlify-starter-headless)
 
-```
+**Option 2**: Manual Install
 
-You will now be able to call your endpoints like `curl http://localhost:8888/api/v1/my-func-name`
+1. Clone the repo: `git clone https://github.com/sgolovine/netlify-starter-headless.git`
+2. Make any changes
+3. Push to your own repository
+4. Connect the repository to Netlify
