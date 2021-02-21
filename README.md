@@ -14,11 +14,23 @@ you quickly build full fledged serverless API's using Netlify
 - Local dev environment using netlify-cli
 - Base path changed from `/.netlify/functions` to `/api`
 
+## Project Structure
+
+```bash
+netlify-starter-headless
+  api/* -> build output for functions
+  public/* -> placeholder for frontend
+  src/* -> serverless functions
+
+```
+
 ## Getting Started
 
 ```bash
 
-git clone <repo> ## clone the repository
+git clone https://github.com/sgolovine/netlify-starter-headless.git ## Checkout
+
+npm install ## Install Dependencies
 
 npm run dev ## Start the dev server
 
