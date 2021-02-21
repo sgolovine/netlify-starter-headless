@@ -1,0 +1,10 @@
+node_modules
+functions/node_modules
+
+# Prevent yarn.lock from being committed
+yarn.lock
+functions/yarn.lock
+
+# build artifacts
+dist
+api

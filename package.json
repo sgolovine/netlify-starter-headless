@@ -1,0 +1,22 @@
+{
+  "name": "netlify-starter-headless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.17",
+    "@types/aws-lambda": "^8.10.72",
+    "aws-lambda": "^1.0.6",
+    "netlify-cli": "^3.8.5",
+    "netlify-lambda": "^2.0.3",
+    "typescript": "^3.9.9"
+  },
+  "scripts": {
+    "postinstall": "netlify-lambda install",
+    "build": "netlify-lambda build src",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
