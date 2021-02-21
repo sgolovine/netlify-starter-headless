@@ -10,7 +10,7 @@ Create API's with Netlify Functions.
 
 ```bash
 
-curl https://netlify-starter-headless.netlify.app/api/hello-world
+curl https://netlify-headless-starter.netlify.app/api/hello-world
 
 ```
 
