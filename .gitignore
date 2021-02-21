@@ -1,3 +1,4 @@
 node_modules
 dist
 api
+yarn-error.log

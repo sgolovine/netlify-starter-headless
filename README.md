@@ -11,6 +11,7 @@ you quickly build full fledged serverless API's using Netlify
 ## What's Included
 
 - Typescript Support out of the box.
+- dotenv support out of the box.
 - Local dev environment using netlify-cli
 - Base path changed from `/.netlify/functions` to `/api`
 
