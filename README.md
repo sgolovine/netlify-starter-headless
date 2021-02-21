@@ -6,6 +6,14 @@ Create API's with Netlify Functions.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sgolovine/netlify-starter-headless)
 
+## Try it out
+
+```bash
+
+curl https://netlify-starter-headless.netlify.app/api/hello-world
+
+```
+
 ## What is it?
 
 AWS Serverless functions are awesome, but having to deal with
