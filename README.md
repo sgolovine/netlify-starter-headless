@@ -16,11 +16,11 @@ you quickly build full fledged serverless API's using Netlify
 
 ## Project Structure
 
-```bash
+```plaintext
 netlify-starter-headless
-  api/* -> build output for functions
+  api/*    -> build output for functions
   public/* -> placeholder for frontend
-  src/* -> serverless functions
+  src/*    -> serverless functions
 
 ```
 
